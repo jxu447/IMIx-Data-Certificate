@@ -1,0 +1,84 @@
+# Basic Calculations
+1+2
+5/6
+
+# Numbers
+a = 123.1
+print(a)
+b = 10
+print(b)
+
+a + b
+c = a + b
+print(c)
+
+# Boolean
+a = True
+b = False
+print(a, b)
+
+# No value
+a = None
+print(a)
+
+# Multiple Assignments
+a, b, c = 1, 2, 3
+print(a, b, c)
+
+
+# Strings
+data = 'hello world'
+
+print(data)
+print(len(data))
+print(data[0])
+
+
+# String Methods
+# https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str
+
+data = 'helli wirld'
+data = data.replace('i', 'o')
+print(data)
+
+print(data.find('world'))
+print(data.startswith('he'))
+print(data.capitalize())
+
+
+# Sum function
+def mysum(x, y):
+    return x + y
+# Be very careful with the correct indentation!
+# Recommendation: use 4 spaces.
+
+# Test sum function
+result = mysum(1, 3)
+print(result)
+
+locals()
+# will give you a dictionary of all local variables.
+
+
+# For-Loop
+myrange = range(10)
+for i in myrange:
+    print(i)
+
+# While-Loop
+i = 0
+while i < 10:
+    print(i)
+    i += 1
+
+# If Statement
+is_customer = True
+if is_customer:
+    print("Yes")
+
+# If Statement with else branch
+is_customer = "No"
+if (is_customer == "No"):
+    print("No")
+else:
+    print("Yes")
